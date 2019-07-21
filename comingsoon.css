@@ -1,0 +1,77 @@
+body,html {
+  height: 100%; 
+  margin: 0; 
+  padding: 0; 
+  background: #f1f5f9; 
+  font-family: sans-serif;
+}
+.hero-image {
+  position: relative; 
+  height: 98%; 
+  background: url(https://s3.amazonaws.com/ocdausa.com/ocda_coming_soon.jpg) no-repeat center;
+  background-size: cover;
+}
+.text-contain {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-45%);
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	font-weight: 700;
+}
+.text-contain h1{
+	font-size: 72px;
+	letter-spacing: 0.2em;
+}
+.text-contain h1 span{
+	border: 10px solid white;
+	padding: 6px 14px;
+	display: inline-block;
+}
+.ready-text {
+	margin: 40px;
+	display: block;
+	font-size: 26px;
+	text-shadow: 0 0 10px black;
+}
+.home-btn {
+	color: #313131;
+	padding: 10px 24px;
+	margin: 20px;
+	font-size: 20px;
+	text-decoration: none;
+	background: #f1f1f1;
+	border-radius: 8px;
+	transition: 0.3s all;
+}
+.home-btn:hover {
+	opacity: 0.8;
+}
+bg-text {
+  font-family: 'Anton', sans-serif;
+}
+
+/*
+------ CSS Notes --------
+background-color
+	greyish #f1f5f9
+	eggshell whiteish #F3F7F0
+	blackish #19323C
+		blackish blue #3D405B
+		black #242325
+	yellowish #FDFE9B
+	greenish
+	goldish #CBA32B
+	
+text-color:
+greenish #093824
+orangeish #BF4E30
+blueish #086788
+muustard yellowish #F0C808
+coral #4ECDC4
+yellow #FFE66D
+dark pink #8F2D56
+
+*/
